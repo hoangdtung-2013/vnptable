@@ -1,0 +1,23 @@
+[project]
+name = "vnptable"
+version = "0.1.0"
+description = "This repository provides the periodic table in Vietnamese as a .json file."
+authors = [
+    {name = "Hoang Duc Tung"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
