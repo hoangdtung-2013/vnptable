@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: vnptable
+Version: 0.1.0
+Summary: This repository provides the periodic table in Vietnamese as a .json file.
+Author: Hoang Duc Tung
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Dynamic: license-file
+
+# vnptable
+This repository provides the periodic table in Vietnamese as a .json file. 
