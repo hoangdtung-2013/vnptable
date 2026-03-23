@@ -1,6 +1,6 @@
 [project]
 name = "vnptable"
-version = "0.1.0"
+version = "0.1.1"
 description = "This repository provides the periodic table in Vietnamese as a .json file."
 authors = [
     {name = "Hoang Duc Tung"}
